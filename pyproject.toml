@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "smc-world-mysql06"
+version = "0.6.0"
+description = ""
+authors = ["Ctrlzi <ctrlzi@outlook.com>"]
+readme = "README.md"
+packages = [{include = "smc_world_mysql06"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
